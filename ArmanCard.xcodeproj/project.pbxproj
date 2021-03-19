@@ -11,6 +11,8 @@
 		3F837F842604A6C900C3C4AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F837F832604A6C900C3C4AB /* ContentView.swift */; };
 		3F837F862604A6CA00C3C4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F837F852604A6CA00C3C4AB /* Assets.xcassets */; };
 		3F837F892604A6CA00C3C4AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F837F882604A6CA00C3C4AB /* Preview Assets.xcassets */; };
+		3F837F932604AA9700C3C4AB /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F837F922604AA9700C3C4AB /* Pacifico-Regular.ttf */; };
+		3F837F962604B70100C3C4AB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F837F952604B70100C3C4AB /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3F837F852604A6CA00C3C4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F837F882604A6CA00C3C4AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F837F8A2604A6CA00C3C4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F837F922604AA9700C3C4AB /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		3F837F952604B70100C3C4AB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		3F837F802604A6C900C3C4AB /* ArmanCard */ = {
 			isa = PBXGroup;
 			children = (
+				3F837F912604AA8300C3C4AB /* fonts */,
 				3F837F812604A6C900C3C4AB /* ArmanCardApp.swift */,
 				3F837F832604A6C900C3C4AB /* ContentView.swift */,
 				3F837F852604A6CA00C3C4AB /* Assets.xcassets */,
 				3F837F8A2604A6CA00C3C4AB /* Info.plist */,
 				3F837F872604A6CA00C3C4AB /* Preview Content */,
+				3F837F952604B70100C3C4AB /* InfoView.swift */,
 			);
 			path = ArmanCard;
 			sourceTree = "<group>";
@@ -67,6 +73,14 @@
 				3F837F882604A6CA00C3C4AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F837F912604AA8300C3C4AB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F837F922604AA9700C3C4AB /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F837F932604AA9700C3C4AB /* Pacifico-Regular.ttf in Resources */,
 				3F837F892604A6CA00C3C4AB /* Preview Assets.xcassets in Resources */,
 				3F837F862604A6CA00C3C4AB /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F837F842604A6C900C3C4AB /* ContentView.swift in Sources */,
+				3F837F962604B70100C3C4AB /* InfoView.swift in Sources */,
 				3F837F822604A6C900C3C4AB /* ArmanCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
